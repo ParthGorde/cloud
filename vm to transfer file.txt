@@ -1,0 +1,26 @@
+create 2 virtual machines:
+
+give the iso file path
+give ram : 2 gb
+give  storage 15gb
+
+create a file on vm1
+
+open terminal on both and type:
+ifconfig
+
+
+now add following command to vm i 
+
+//code to copy file from one vm to other vm 
+1. scp file.txt vboxuser@192.168.1.6:/home
+
+2. enter the password of 2nd vm
+
+
+
+now in 2nd vm go to:
+ /home
+
+ the file will be there
+ 

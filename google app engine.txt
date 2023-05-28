@@ -1,0 +1,18 @@
+
+
+** DO check the python version is 2.7 **
+
+create a folder
+open google app engine
+
+go to -
+
+File - Create new app
+
+add aplication name
+add the path of the folder
+and hit create
+
+select the project
+click run 
+then click Browse

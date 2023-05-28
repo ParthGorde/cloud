@@ -1,0 +1,37 @@
+first create a folder 
+
+add following files :
+
+1. app.yaml:
+
+runtime: python27
+api_version: 1
+threadsafe: false
+handlers:
+- url: /.*
+  script: index.py
+
+2. index.py
+
+print("hello world");
+
+
+open google cloud sdk shell
+
+1. gcloud init  
+     then login to the email
+
+2. Re-initialize
+3. select email
+4. select existing project or create new
+    
+    Add following command
+
+5. python google-cloud-sdk\bin\dev_appserver.py C:\Users\Asus\Desktop\demo
+
+        if u get error about 8080 binding:
+
+        open cmd as administrator 
+
+        1. netstat -ano | findstr :8080
+        2. taskkill /PID 6404 /F

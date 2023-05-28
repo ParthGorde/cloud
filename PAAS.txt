@@ -1,0 +1,19 @@
+Go to : https://cloud.google.com/
+
+login
+
+activate cloud shell
+open editor
+
+cloud code
+new application
+cloud run application
+python flask 
+
+cloud code
+deploy to cloud run
+
+cloud code
+run on cloud run emulator
+
+
